@@ -73,6 +73,7 @@ nav {
 nav li {
     list-style-type: none;
     display: inline-block;
+    margin-top: 10px;
 }
 
 /* Main Content */
@@ -80,7 +81,7 @@ main {
     background-color: white;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 75px;
+    margin-top: 100px;
 }
 
 /* Footer */
