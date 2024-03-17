@@ -23,6 +23,10 @@ body {
 header {
     background-color: aliceblue;
 }
+h1 {
+    font-family: 'Robot Flex', sans-serif;
+    font-weight: bold;
+}
 
 /* Main Content */
 main {
