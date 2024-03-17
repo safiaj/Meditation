@@ -27,6 +27,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px aliceblue; 
+    text-align: center;
 }
 
 header a {
@@ -55,6 +56,24 @@ h1 {
 .active {
     border-bottom: 1px solid lightblue;
 }
+
+/* Navbar styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px;
+    left: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
