@@ -37,10 +37,10 @@ header a {
 
 h1 {
     font-family: 'Robot Flex', sans-serif;
-    font-weight: bold;
+    font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: darkblue;
+    color: rgba(0, 0, 139, 0.647);
 }
 
 #menu {
@@ -49,7 +49,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -67,6 +67,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px;
     left: 0;
+    top: 100%;
 }
 
 nav li {
@@ -76,9 +77,10 @@ nav li {
 
 /* Main Content */
 main {
-    background-color: lightblue;
+    background-color: white;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 75px;
 }
 
 /* Footer */
