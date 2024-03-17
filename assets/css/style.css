@@ -28,9 +28,18 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px aliceblue; 
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Robot Flex', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkblue;
 }
 
 /* Main Content */
