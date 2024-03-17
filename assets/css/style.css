@@ -84,16 +84,27 @@ nav li {
 
 /* Main Content */
 main {
-    background-color: white;
+    background-color: rgb(234, 232, 232);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* Push main content down to accomodate larger header */
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 /* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
-
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
