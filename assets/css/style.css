@@ -19,6 +19,22 @@ body {
     color: lightblue;
     font-family: 'Roboto Flex', sans-serif;
 }
+
+h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 139, 0.647);
+}
+
+h2, h3, p {
+    font-family: 'Roboto Flex' sans-serif;
+    font-weight: 400;
+    text-transform: initial;
+    color: rgb(147, 119, 166);
+    text-align: center;
+}
 /* Header */
 header {
     background-color: white;
@@ -33,14 +49,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Robot Flex', sans-serif;
-    font-weight: 100;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgba(0, 0, 139, 0.647);
 }
 
 #menu {
@@ -93,10 +101,11 @@ main {
 
 /* Hero section */
 #hero {
-    height: 800px;
+    height: 300px;
     width: 100%;
     background-color: aliceblue;
     background: url("../images/Hero-image.webp") no-repeat center center/cover;
+    
 }
 /* Footer */
 #social-networks {
