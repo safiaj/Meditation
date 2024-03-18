@@ -120,6 +120,35 @@ main {
     position: relative;
     
 }
+
+/* Learning section */
+#reading {
+width: 90%;
+margin: 20px auto;
+margin-bottom: 20px;
+color: #9595e9;
+}
+
+#reading h2 {
+    margin-inline: 40px;
+    text-align: center;
+    font-size: 240%;
+}
+
+#learning-meditation > div {
+    line-height: 20px;
+    margin: 40px;
+}
+
+#learning-meditation p {
+    padding: 0 20px;
+    margin: 40px;
+}
+
+#reading hr {
+    border-top: 0.5px slategray solid ;
+    text-align: center;
+}
 /* Footer */
 #social-networks {
     text-align: center;
