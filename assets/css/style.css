@@ -28,24 +28,6 @@ h1 {
     color: rgba(0, 0, 139, 0.647);
 }
 
-#cover-text {
-    font-family: 'Roboto Flex' sans-serif;
-    font-weight: 400;
-    text-transform: initial;
-    font-size: bold;
-    text-align: center;
-    top: 30px;
-    width: 80;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-}
-
-#cover-text > h2, #cover-text > h3, #cover-text > p {
-    color: rgb(8, 8, 8, 1);
-    
-}
-
 /* Header */
 header {
     background-color: white;
@@ -112,42 +94,58 @@ main {
 
 /* Hero section */
 #hero {
-    height: 900px;
+    height: 600px;
     width: 100%;
     background-color: aliceblue;
     background: url("../images/Hero-image.webp") no-repeat center center/cover;
-    opacity: 0.2;
-    position: relative;
-    
+    position: relative; 
+    opacity: 0.5;
 }
 
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(0, 0, 255, 0.544);
+    font-size: 130%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px; 
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff; 
+    text-align: center;
+}
+
+#cover-text > h3 {
+    font-size: 200%;
+}
 /* Learning section */
-#reading {
+#reasons {
 width: 90%;
 margin: 20px auto;
-margin-bottom: 20px;
-color: #9595e9;
 }
 
-#reading h2 {
-    margin-inline: 40px;
+#reasons h2 {
+    margin-inline: 20px;
     text-align: center;
-    font-size: 240%;
+    font-size: 280%;
 }
 
-#learning-meditation > div {
+#benefits-meditation > div, #meditation-forms > div {
     line-height: 20px;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
-#learning-meditation p {
+#benefits p {
     padding: 0 20px;
-    margin: 40px;
 }
 
-#reading hr {
-    border-top: 0.5px slategray solid ;
-    text-align: center;
+#benefits hr {
+    border-top: 1px slategray solid ;
+    margin: 5px 0;
 }
 
 #circle-cover-bg {
@@ -161,7 +159,7 @@ color: #9595e9;
     max-height: 300px;
 }
 
-#frontpage-image {
+#benefits-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,7 +182,22 @@ color: #9595e9;
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-   
+   /* Reasons section */
+   #benefits-meditation, #meditation-forms {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+
+   #benefits-meditation > div, #meditation-forms > div {
+    width: 75%;
+
+   }
+   #meditation-forms > div {
+    text-align: end;
+    align-self: flex-end;
+   }
+
     } 
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -192,4 +205,35 @@ color: #9595e9;
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+/* Large devices (laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Benefits section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #meditation-forms {
+        order: 1;
+    }
+
+    #meditation-forms > div {
+        align-self: flex-start;
+    }
+
+    #benefits-meditation > div {
+        align-self: flex-end;
+    }
+}
+    
 }
