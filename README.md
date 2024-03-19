@@ -20,6 +20,22 @@ Existing Features
 * For ease, I opted out of creating a 'burger' menu section and decided to keep the nav bar the same regardless of the link clicked, this allows users to see the window options at all times.
 ![navigation_bar] (assets/images/navigation-bar.png)
 
+### Landing page 
+* The landing page includes an overlay of a soft light blue image with simple text. This allows the user to recieve a quick insight into what they can expect the website to feel like but also stops 'information overload' when first clicking on the site. As the user scrolls down they see introductory information on the reasons to meditate, benefits and different forms of meditation. The text included on this page is very minimal with external links to top sites that provide proven facts and offer medically tested forms of meditation alongside a quick/short video of the top watched guided meditation video on youtube.
+! [landing_page_and_reasons_to_meditate] (assets/images/landing-page.png) (assets/images/landing-page2.png) 
+
+### Gallery 
+* The gallery provides users insight into different forms of meditation such as hiking, yoga, exercise, listening to music, reading and relaxing. This section is very important as one of the key aspects of meditating is relaxation so it was important to me to create a site that allowed users to look through at their own pace and identify the different forms of meditation they may be interested in. This also links to the initial information provided on the landing page.
+
+! [gallery] (assets/images/gallery.png)
+
+### Contact page and Submission Response
+* The contact page is again another simple page allowing users to sign up to the website to recieve weekly book, podcasts, and app recommendations on meditation. This page allows users to relax and allow the work to be done for them, further pushing the idea of relaxtion in meditation, by signing up users will recieve links like those referenced in the landing page on how to meditate, and the benefits. Once users sign up a page pops up the notifies them of their sign up. This should be the case each time as I have coded the page to not allow any submissions without each box being completed and if it isn't it will notify the user. Again I have used light colours that allows the user to relax and not feel overwhelmed by an overload of information. 
+
+! [contact_and_submission_page] (assets/images/signup-form-page.png) (assets/images/submission-confirmation-page.png)
+
+### Features left to implement 
+* Another feature idea I would like to implement after final review is links within the images that might pull out to further information on the types of meditation shown in the image. I think this would elevate the website and allow for a more interactive site overall.
 
 ### Validator testing
 * HTML
@@ -29,7 +45,7 @@ Existing Features
 No errors were found when passing through the official Jigsaw W3 Validator
 ![CSS-validator](assets/docs/css_validator.png)
 ### Unfixed bugs
-* background image does not fill the full page 
+* background image does not fill the full page. Unable to fix after many changes in code, possibly due to the format at css, html used. This should be easy to fix by reworking the current code or taking out the background image for a better end user experience.
 
 ## Version Control
 To ensure version control the following commands were used to ensure all features were deployed into the live site:
@@ -62,9 +78,9 @@ The site was deployed to GitHub Pages. Please follow the steps below to deploy:
 * Google fonts
 * pexels.com - for all open source images used.
 * W3C Validator - to check all code was correct.
-* blog.logrocket.com -form styling help
+* Headspace, 'Verywell' and Youtube websites for landing page information 
+* Student support on Slack
 * Love Running project - for general help
 * Google - The general text from the home page and sign up page inspiration is from Google.
 * Font Awesome - for all icons used.
-* previous students documents (very appreciated!)
-* Love running project examples and readme file
+* Love running project readme file
